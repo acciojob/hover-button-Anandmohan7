@@ -1,2 +1,44 @@
 
 /* Your CSS Code here. */
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: rgb(204, 204, 204);
+    font-family: Arial, sans-serif;
+}
+
+.accio {
+    width: 150px;
+    height: 150px;
+    background-color: #000000;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.hello-accio {
+    color: #ffffff;
+    margin-left: 32px;
+    padding: 10px;
+}
+
+#btn {
+    background-color: black;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+#btn:hover {
+    background-color: yellow;
+    color: black;
+    border-radius: 30px;
+}
